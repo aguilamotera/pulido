@@ -1,10 +1,11 @@
+from imports import config
 
 class Shuriken():
 	""" Shuriken is the main object of the game """
 
 	def __init__(self):
-		self.x = SHURIKEN_INITIAL_X
-		self.y = SHURIKEN_INITIAL_Y
+		self.x = config.SHURIKEN_INITIAL_X
+		self.y = config.SHURIKEN_INITIAL_Y
 		self.xdirection = 0
 		self.ydirection = 0
 		self.movement = 'UPWARDS'

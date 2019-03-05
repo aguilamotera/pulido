@@ -1,13 +1,15 @@
-from imports import Frame, Tk
+
+from imports import Frame, Tk, config, Shuriken
 
 class RunBladeRun(Frame):
 
 	def __init__(self, master=None):
-		pass
-		# Frame.__init__(self, master)
-		# self.pack()
+		
+		 Frame.__init__(self, master)
+		 self.pack()
 
-		# self.shuriken = Shuriken()
+		 self.shuriken = Shuriken()
+		 print(str(self.shuriken.x))
 		# self.obstacle = Obstacle()
 
 		# self.canvas = Canvas(self, width=WIDTH, height=HEIGHT,  background="white")
