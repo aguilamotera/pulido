@@ -1,7 +1,7 @@
 import time
 from threading import Thread
 
-from tkinter import Canvas
+
 from tkinter import PhotoImage
 
 
