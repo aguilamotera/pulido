@@ -21,7 +21,7 @@ class RunBladeRun(Frame):
 		 self.canvas.pack()
 		 self.focus()
 
-		# setupGame(self.canvas)
+		 setupGame(self.canvas)
 
 
 class EventListener(Thread):

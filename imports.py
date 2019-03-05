@@ -1,6 +1,7 @@
 from tkinter import Frame
 from tkinter import Tk
 from tkinter import Canvas
+from tkinter import PhotoImage
 
 import time
 from threading import Thread
