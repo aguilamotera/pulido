@@ -1,5 +1,5 @@
 
-from imports import Frame, Tk, config, Shuriken
+from imports import Frame, Tk, config, Shuriken, Obstacle
 
 class RunBladeRun(Frame):
 
@@ -9,8 +9,7 @@ class RunBladeRun(Frame):
 		 self.pack()
 
 		 self.shuriken = Shuriken()
-		 print(str(self.shuriken.x))
-		# self.obstacle = Obstacle()
+		 self.obstacle = Obstacle()
 
 		# self.canvas = Canvas(self, width=WIDTH, height=HEIGHT,  background="white")
 		# self.eventListener = EventListener()

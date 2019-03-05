@@ -1,10 +1,11 @@
+from imports import config
 
 class Obstacle():
 	""" If shuriken collides with one of this you lose """
 
 	def __init__(self):
-		self.x = OBSTACLE_INITIAL_X
-		self.y = OBSTACLE_INITIAL_Y
+		self.x = config.OBSTACLE_INITIAL_X
+		self.y = config.OBSTACLE_INITIAL_Y
 		self.ydirection = 0
 		self.movement = None
 
